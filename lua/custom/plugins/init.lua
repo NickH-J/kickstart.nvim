@@ -2,4 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+
+vim.opt.colorcolumn = '80'
+vim.cmd 'highlight ColorColumn ctermbg=0 guibg=darkred'
+
 return {}
